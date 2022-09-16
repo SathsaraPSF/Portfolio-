@@ -1,0 +1,165 @@
+body{
+  background-image: linear-gradient( #414141,#000000);
+  background-repeat: no-repeat;
+    
+
+
+}
+
+.navbar-brand{
+    display: block;
+    width:150px;
+   
+
+}
+
+.navbar{
+    background-color: #000000;
+    box-shadow: 0 0 80px #FFB200; 
+}
+.navbar-brand:hover{
+    text-shadow: 2px 2px 4px black, 0 0 1em #FFB200, 0 0 0.2em #FFB200;
+    color: white;
+    box-shadow: 0px 0px 43px 17px #FFB200;
+        
+}
+
+.heading{
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 0 0 10px #FF0000, 0 0 12px #0000FF;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.list{
+    display: block;
+    color: #666;
+    position: relative;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background: #171515;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px #e4e1e1
+    
+}
+
+ul li:before{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: inherit;
+    background: #d35400; 
+    border-radius: 50%;
+    transform: scale(.9);
+    z-index: -1;
+    transition: .5s;
+
+}
+
+ul li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #d35400; 
+  }
+
+
+  .card-container{
+    width: 20rem;
+    font-size: 20px; 
+    box-shadow: 0px 0px 43px 17px #FFB200;
+    padding: 15px;
+    display: block;
+
+  }
+
+  .contact:hover{
+    text-shadow: 0 0 10px #FFB200;
+  }
+
+  .form{
+   padding: 20px;
+   background-image: linear-gradient( #414141,#000000);
+   border-radius: 10px;
+  }
+
+  .form-input{
+    width:100%;
+    border: 2px solid black;
+    color: #e4e1e1;
+    cursor: pointer;
+    
+    background: transparent;
+  
+  }
+  .form-input:hover{
+    border: #FFB200 2px solid;
+    background-color: #666;
+  }
+  .label-name{
+    color: #000000;
+    text-shadow: 0 0 3px #ffd900, 0 0 3px #363638 ;
+  }
+
+  .button{
+    padding: 12px;
+    background-color: #FFB200;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width:20%
+  }
+
+  .button:hover{
+    background: transparent;
+    border: #FFB200 2px solid;
+    color: #FFB200;
+  }
+  
+.footer-links{
+    display: grid;
+    justify-items: end;
+    padding-right: 134px;
+   
+}
+
+.links{
+        color: #e4e1e1;
+        text-shadow: 0 0 2px #ffc400, 0 0 2px #c6c6e4;
+        text-decoration: none;
+        padding: 10px;
+        background: transparent;
+        margin-bottom: 10px;
+        width: 40%;
+        border: 2px solid #FFB200;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #e3ca0b; 
+    
+}
+
+.links:hover{
+    box-shadow: 0px 0px 43px 17px #FFB200;
+}
+
+.footer {
+    background-color: #000000;
+    box-shadow: 0 0 80px #414141; 
+    padding-left: 52px;
+    padding-inline-start: 10px;
+   
+    
+}
+
+

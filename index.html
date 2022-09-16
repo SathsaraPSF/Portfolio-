@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
+</head>
+<body>
+    <div class="navbar navbar-expand-sm navbar-dark "><!-- Nav bar container starts here -->
+       
+
+        <button class="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"><span class="navbar-toggler-icon" ></span></button>
+        
+        <div class="collapse navbar-collapse justify-content-center w-100" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="navbar-item"> <a href="index.html" class="navbar-brand"> Home</a></li>
+                <li class="navbar-item"> <a href="resume.html" class="navbar-brand"> Resume</a></li>
+                <li class="navbar-item"> <a href="project.html" class="navbar-brand"> Projects</a></li>
+            </ul>
+        </div>
+    </div> <!-- Navbar containor end here -->
+    
+    <div class="container my-5"><!-- Main container starts here -->
+      
+        <div class="row align-items-center" ><!-- 1st row starts here -->
+            <div class="col-sm-12 col-lg-6 text-center" >
+                <h1 class="heading lead">HI THERE, </h1>
+                <h1 class="heading lead">I AM PASINDU SATHSARA</h1>
+                <br>
+                <p class="lead" style="letter-spacing:20px ; text-shadow: 0 0 5px #FF0000, 0 0 10px #0000FF;color: aliceblue;">UNDERGRADUATE</p>
+                <br>
+                <br>
+                <ul>
+                    <li class="list"><a style="color:#414141 ;" href="https://github.com/SathsaraPSF" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li class="list"><a style="color:#414141 ;" href="https://www.linkedin.com/in/pasindusathsara/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list"><a style="color:#414141 ;" href="https://www.facebook.com/pasindu.sathsra" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="list"><a style="color:#414141 ;" href="https://youtube.com/channel/UC5Sy4gfpI5iUNUz-fwgm0ZQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li class="list"><a style="color:#414141 ;" href="https://sathsaraprogramming.blogspot.com/" target="_blank"><i class="fab fa-blogger-b"></i></a></li>
+                </ul>
+                
+            </div>
+            <div class="col-sm-12 col-lg-6 ">
+                <img src="Assests/my.jpeg" class="mx-auto d-block img-fluid" style="width:30%; border-radius: 30px; box-shadow: 10px 10px 5px #FFB200;"   >
+            </div>
+        </div><!-- 1st row ends here -->
+
+        <br><br>
+        
+        <div class="row  "><!-- 2nd row starts here -->
+            <div class="col-lg-6 align-items-center">
+                <img src="Assests/about.png" class="mx-auto d-none d-md-block"  style="width:500px; height:400px" >
+            </div>
+                 
+                <div class="card-inside lead col-sm-6 col-lg-6 align-items-center" style="width: 40rem;margin-top: 60px; font-size: 20px; color:white;box-sizing: border-box;  box-shadow: 0px 0px 43px 17px #FFB200;padding: 15px;">
+                  
+                     <p >All the things can be done with try and thinking positively. It’s my definition. I always try to do my level best. I am still studying and always I want to study something new.                                                                                   
+
+                        I had been working at OUSL for 4months as a technical assistant, but I had to drop it because of my studies. I successfully completed the AutoCAD diploma at the ESOFT metro campus. Nowadays I am doing software engineering at OUSL, and I wish to do it well. 
+                        
+                        As my favorites I have a small garden and I always try to feed my plants and I want to spend more time with my plants. </p>
+                </div>
+           
+        </div><!-- 2nd row ends here -->
+
+        <br><br><br><br>
+        
+        <h1 class="heading lead text-center " >Contact me</h1>
+
+        <div class="row  my-5" ><!-- 3rd row starts here -->
+            
+            <div class=" col-sm-6 col-lg-6 text-center my-5 card-container  mx-3 mx-auto  d-md-block" >
+                <h2 class="lead" style="color:white;">Email</h2>
+                <a class="contact" style ="font-size: 40px; color: #414141;" href="mailto: sathsara.psf@gmail.com"><i  class="fa fa-envelope my-3"></i></a>
+            </div>
+            
+            <div class=" col-sm-6 col-lg-6 text-center my-5 card-container mx-auto  d-md-block" >
+                <h2 class="lead" style="color:white;">Mobile</h2>
+                <a class="contact" style ="font-size: 40px; color: #414141;"  href="tel:+ 0772253533"><i  class="fa fa-mobile my-3"></i></a>
+            </div>
+            
+        </div><!-- 3rd row ends here -->
+
+        <h1 class="heading lead text-center my-5 " >Leave a comment</h1>
+        
+        <div class="row my-5"><!-- 4th row starts here -->
+            <div class="col-12">
+                <form method="post" action="database.php" class="form" >
+                    <div class="form-group">
+                        <label class="my-3 label-name">Name</label>
+                        <input type="text" name="name" class="form-control form-input" placeholder="Enter Name">
+                        <label class="my-3 label-name">Email</label>
+                        <input type="email" name="email" class="form-control form-input" placeholder="Enter your Email">
+                        <label class="my-3 label-name">Comment</label>
+                        <textarea class="form-control form-input" name="comment" placeholder="Leave your comment here" row="3"></textarea>
+                        <input class="my-3 button" type="submit" value="Submit" name="submit">
+                    </div>
+                </form>
+            </div>
+        </div><!-- 4th row ends here -->
+        </div> 
+    </div> <!-- Main container ends here -->
+
+    <div class="footer ">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-lg-4 text-center">
+              
+                <img class="my-5" src="Assests/PS.gif" style="width:60%; height:60%" alt="" >
+            </div>
+            <div class="col-sm-12  col-lg-4 ">
+                <h2 class="lead text-center align-items-center " style="color: aliceblue; text-shadow: 0 0 10px #FF0000, 0 0 12px #0000FF;">&copy; All Rights Reserved.</h2>
+            </div>
+            <div class="col-sm-12  col-lg-4 footer-links text-center mx-3  mx-auto d-none  d-md-block"  >
+                <a style="color:#414141 ;" class="links" href="index.html">Home</a>
+                <a style="color:#414141 ;" class="links" href="resume.html">Resume</a>
+                <a style="color:#414141 ;" class="links" href="index.html">Project</a>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
+
